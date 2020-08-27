@@ -8,7 +8,7 @@ bool flag = false;
 void DFS(int L, int sum) {
 	if (sum > (total / 2)) return; // 절반 체크
 	if (flag == true) return;
-	if (L == n + 1) {
+	if (L == n + 1) { // 종료지점
 		if (sum == (total - sum)) {
 			flag = true;
 		}
