@@ -19,9 +19,6 @@ void DFS(int v) {
 			visit[i] = false;
 		}
 	}
-	
-
-
 }
 
 int main()
